@@ -1,7 +1,7 @@
 ![](./Images/WeAct-LogicAnalyzerV1-01.png)
 
 # 简介
-WeAct LogicAnalyzerV1是一款基于赛普拉斯CY7C68013A USB控制器设计的逻辑分析仪，可同时采集8个通道，每个通道最大采样率为24Mhz，逻辑电平最大支持5.5V，大于2V认为是高电平，低于0.8V认为是低电平。软件采用开源的sigrok-PulseView，支持Linux、Windows、Mac OS X等平台，协议解析支持超过100种，并且可以添加自有协议分析。
+WeAct LogicAnalyzerV1是一款基于 赛普拉斯CY7C68013A/芯佰微CBM9002A USB控制器设计的逻辑分析仪，可同时采集8个通道，每个通道最大采样率为24Mhz，逻辑电平最大支持5.5V，大于2V认为是高电平，低于0.8V认为是低电平。软件采用开源的sigrok-PulseView，支持Linux、Windows、Mac OS X等平台，协议解析支持超过100种，并且可以添加自有协议分析。
 逻辑分析仪具体参数如下：
 * 采样率及通道数：24Mhz@8 Channel
 * 信号输入范围：0-5.5V
