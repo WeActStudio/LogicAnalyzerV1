@@ -33,4 +33,7 @@ WeAct LogicAnalyzerV1是一款基于 赛普拉斯CY7C68013A/芯佰微CBM9002A US
 > 支持，自行使用编程器编程，但EEPROM只有2Kbit大小
 5. 两个LED分别指示哪两个通道
 > 绿灯指示CH0，蓝灯指示CH1
-6. TBD
+6. 提示msvcr100.dll找不到  
+![](./Images/msvcr100.png)  
+> 将msvcr100.dll（文件在Tools文件夹）放在 pulseview.exe所在的目录，如C:\Program Files (x86)\sigrok\PulseView\
+7. TBD

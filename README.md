@@ -32,4 +32,6 @@ See sigrok [Supported Protocol decoders](https://sigrok.org/wiki/Protocol_decode
 > Support, their own use of programming, but EEPROM only 2Kbit size
 5. Two leds indicate which two channels
 > The green light indicates CH0 and the blue light indicates CH1
-6. TBD
+6. msvcr100.dll could not be found
+> Place msvcr100.dll (Files in Tools folder) in the same directory as pulseview.exe, such as C:\Program Files (x86)\sigrok\PulseView\
+7. TBD
