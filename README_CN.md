@@ -1,4 +1,4 @@
-![](./Images/WeAct-LogicAnalyzerV1-01.png)
+![image](https://github.com/WeActStudio/LogicAnalyzerV1/assets/57818792/7fca2b8b-95d0-4318-adfd-1d630cf5f95d)![](./Images/WeAct-LogicAnalyzerV1-01.png)
 
 # 简介
 WeAct LogicAnalyzerV1是一款基于 赛普拉斯CY7C68013A/芯佰微CBM9002A USB控制器设计的逻辑分析仪，可同时采集8个通道，每个通道最大采样率为24Mhz，逻辑电平最大支持5.5V，大于2V认为是高电平，低于0.8V认为是低电平。软件采用开源的sigrok-PulseView，支持Linux、Windows、Mac OS X等平台，协议解析支持超过100种，并且可以添加自有协议分析。
@@ -9,7 +9,7 @@ WeAct LogicAnalyzerV1是一款基于 赛普拉斯CY7C68013A/芯佰微CBM9002A US
 * 通讯方式：USB 2.0 （为了保证24Mhz的采样率，尽量不要使用USB扩展坞）
 
 # 开始使用
-1. 下载sigrok-PulseView [官方最新版本](https://sigrok.org/wiki/Downloads)
+1. 下载sigrok-PulseView [官方稳定版本](https://sigrok.org/wiki/Downloads) （务必下载Release builds，0.4.2版本）
 2. 下载并安装逻辑分析仪驱动
 > 有两种安装驱动的方法
 >* 第一种：使用PulseView自带的驱动，PulseView安装完后运行Zadig,选择需要安装驱动的设备，并勾选Edit，将设备名改为`fx2lafw`,然后点击`Install Driver`即可
