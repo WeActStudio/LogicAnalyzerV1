@@ -12,7 +12,7 @@ WeAct LogicAnalyzerV1 is a logic analyzer designed based on Cypress `CY7C68013A`
 * Communication mode: USB 2.0 (In order to ensure the sampling rate of 24Mhz, try not to use USB docking station)
 
 # Begin to use
-1. Download [sigrok-PulseView Software](https://sigrok.org/wiki/Downloads)
+1. Download [sigrok-PulseView Software](https://sigrok.org/wiki/Downloads) (Be sure to download the Release builds,0.4.2 Version)
 2. Install sigrok-PulseView && LogicAnalyzer driver
 > After PulseView is installed, run Zadig, select the device you want to Install the Driver on, check Edit, change the device name to `fx2LAFw`, and then click `Install Driver`
 ![](./Images/WeAct-LogicAnalyzerV1-02.png)
