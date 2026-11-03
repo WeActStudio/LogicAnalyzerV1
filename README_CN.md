@@ -14,7 +14,7 @@ WeAct LogicAnalyzerV1是一款基于 赛普拉斯CY7C68013A/芯佰微CBM9002A US
 > 有两种安装驱动的方法
 >* 第一种：使用PulseView自带的驱动，PulseView安装完后运行Zadig,选择需要安装驱动的设备，并勾选Edit，将设备名改为`fx2lafw`,然后点击`Install Driver`即可
 ![](./Images/WeAct-LogicAnalyzerV1-02.png)
->* 第二种：使用我们提供的驱动程序，[点我下载](https://blog.weactstudio.com/Download/fx2lafw_driver.zip)，解压，选择`fx2lafw.inf`文件，右键选择`安装`，系统会自动开始安装驱动程序，弹出`操作成功完成`，设备管理器显示如下设备，即为安装完成，测试平台——Win10
+>* 第二种：使用我们提供的驱动程序，[点我下载](https://www.weact-tc.cn/Download/fx2lafw_driver.zip)，解压，选择`fx2lafw.inf`文件，右键选择`安装`，系统会自动开始安装驱动程序，弹出`操作成功完成`，设备管理器显示如下设备，即为安装完成，测试平台——Win10
 ![](./Images/WeAct-LogicAnalyzerV1-03.png)
 3. 点击PulseView运行软件，此时逻辑分析仪的黄灯会亮起，表示固件加载成功，可以采样逻辑信号。
 ![](./Images/WeAct-LogicAnalyzerV1-04.png)
