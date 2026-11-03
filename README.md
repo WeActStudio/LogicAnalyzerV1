@@ -1,4 +1,4 @@
-中文介绍见[WeActStudio博客](http://www.weact-tc.cn/2021/10/30/WeAct-LogicAnalyzerV1/)
+中文介绍见[WeActStudio博客](http://blog.weactstudio.com/2021/10/30/WeAct-LogicAnalyzerV1/)
 
 中文介绍见[README_CN](./README_CN.md)
 
